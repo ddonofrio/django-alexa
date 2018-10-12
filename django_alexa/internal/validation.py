@@ -14,7 +14,7 @@ from .exceptions import InternalError
 try:
     from urllib.parse import urlparse
 except:
-    from urlparse import urlparse
+    from urlparse3 import urlparse3 as urlparse
 
 log = logging.getLogger(__name__)
 
